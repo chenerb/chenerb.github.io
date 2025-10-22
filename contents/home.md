@@ -1,5 +1,3 @@
-[!\[chenerb](https://img.shields.io/badge/chenerb-github-blue?logo=github)](https://github.com/chenerb)
-
 He is currently a junior in the School of Information Science and Electronic Engineering at Shanghai Jiao Tong University（SJTU）,
 also a LA in OMNILab backed by SJTU Artificial Intelligence Institute .
 His supervisor is Jin, Y.(https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html)
