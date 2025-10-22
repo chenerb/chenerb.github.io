@@ -1,16 +1,5 @@
-
-- Outstanding Graduate Award (CUMT), 2025.
-
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
-
-- First-Prize Graduate Academic Scholarship (CUMT), 2024.
-
-- First-Prize Graduate Academic Scholarship (CUMT), 2023.
-
-- Freshman Scholarship (CUMT), 2022.
-
-- Outstanding Undergraduate Thesis Award (Jiangsu, China), 2022.
-
-- First-Prize Corporate Scholarship (CUMT), 2020.
-
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+* Gold Award of Shanghai International College Students' Innovation Competition, 2025.
+* Seccessful Participants in Mathematical Contest In Modeling(MCM), 2025.
+* Second-Prize（First in the Eastern division）Intel Cup Undergraduate Electronic Design Contest-Embeded System Design Invitational Contest (ESDC), 2023.
+* “Annual figure”in SJTU, 2023.
+* “Merit Student”in SJTU，2023.
