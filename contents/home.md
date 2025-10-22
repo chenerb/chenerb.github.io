@@ -12,7 +12,7 @@ B.E., Information Engineering, Shanghai Jiao Tong University, 2023—2027（Expe
 
 #### Research Interests
 
-Deep Learning, Artificial Intelligence, Data Analysis,Hardware Circuit Design.
+Deep Learning, Data Analysis, Computer Vision，Hardware Circuit Design.
 
 #### Interests
 
