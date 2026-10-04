@@ -1,6 +1,6 @@
-
-
 # Feiyang Chen's academic homepage
+
+**Visit the website: [https://chenerb.github.io/](https://chenerb.github.io/)**
 
 A personal homepage for Feiyang Chen, an Information Engineering undergraduate at Shanghai Jiao Tong University. The page loads its text from Markdown and YAML files, so content changes do not require a build step.
 
