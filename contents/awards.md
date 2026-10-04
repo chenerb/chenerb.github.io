@@ -1,5 +1,10 @@
-* Gold Award of Shanghai International College Students' Innovation Competition, 2025.
-* Seccessful Participants in Mathematical Contest In Modeling(MCM), 2025.
-* Second-Prize（First in the Eastern division）Intel Cup Undergraduate Electronic Design Contest-Embeded System Design Invitational Contest (ESDC), 2023.
-* “Annual figure”in SJTU, 2023.
-* “Merit Student”in SJTU，2023.
+### 2025
+
+- **Gold Award** — Shanghai International College Students' Innovation Competition.
+- **Successful Participants** — Mathematical Contest in Modeling (MCM).
+
+### 2023
+
+- **Second Prize (first in the Eastern division)** — Intel Cup Undergraduate Electronic Design Contest, Embedded System Design Invitational Contest (ESDC).
+- **“Annual figure”** — SJTU.
+- **“Merit Student”** — SJTU.

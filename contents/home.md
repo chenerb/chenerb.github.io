@@ -1,20 +1,14 @@
-He is currently a junior in the School of Information Science and Electronic Engineering at Shanghai Jiao Tong University（SJTU）,
-also a LA in OMNILab backed by SJTU Artificial Intelligence Institute .
-His supervisor is Jin, Y.(https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html)
+I am an undergraduate studying Information Engineering at Shanghai Jiao Tong University (SJTU). I am also affiliated with OMNILab, which is backed by the SJTU Artificial Intelligence Institute. My supervisor is [Jin, Y.](https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html).
 
-#### Contact
+## Research interests
 
-Email: cfy.sjtu@sjtu.edu.cn  /  cfeiyang370@gmail.com
+My interests include deep learning, data analysis, computer vision, and hardware circuit design.
 
-#### Education
+## Education
 
-B.E., Information Engineering, Shanghai Jiao Tong University, 2023—2027（Expected）.
+B.E. in Information Engineering, Shanghai Jiao Tong University
+<small class="education-period">2023–2027 (expected)</small>
 
-#### Research Interests
+## Beyond research
 
-Deep Learning, Data Analysis, Computer Vision，Hardware Circuit Design.
-
-#### Interests
-
-Broadcasting and Hosting，Theatre Performance，Sports
-
+I enjoy broadcasting and hosting, theatre performance, and sports.

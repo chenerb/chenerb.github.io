@@ -1,8 +1,1 @@
-#### Submitted
-
-None yet
-
-#### Published
-
-None yet
-
+I have no publications or submitted papers to list yet.

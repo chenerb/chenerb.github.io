@@ -1,69 +1,39 @@
 
 
-![Github Forks](https://img.shields.io/github/forks/senli1073/senli1073.github.io?style=flat)
-![Github Stars](https://img.shields.io/github/stars/senli1073/senli1073.github.io?style=flat)
-![License](https://img.shields.io/github/license/senli1073/senli1073.github.io)
-![Last Commit](https://img.shields.io/github/last-commit/senli1073/senli1073.github.io)
+# Feiyang Chen's academic homepage
 
-# A simple Github Pages template for personal academic websites.
+A personal homepage for Feiyang Chen, an Information Engineering undergraduate at Shanghai Jiao Tong University. The page loads its text from Markdown and YAML files, so content changes do not require a build step.
 
-## Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/senli1073.github.io/main/screenshot_full.png)](https://senli1073.github.io/)
+## Preview locally
 
+From the repository root, run:
 
-## Introduction
-
-This personal academic website template is based on [bootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
-
-The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
-
-This template supports LaTeX formula input. You can use `$...$` and `\(...\)` as delimiters for inline-math, or use `$$...$$` and `\[...\]` as delimiters for display-math. Macros such as `\ref{...}`, `\eqref{...}`, and `\begin{equation}...\end{equation}` are also supported. See [MathJax](https://docs.mathjax.org/en/latest/index.html) for more details.
-
-:milky_way: Demo: https://senli1073.github.io/
-
-
-## Getting Start
-### 1. Fork this repository
-The repository name should be `<username>.github.io`, which will also be your website's URL.
-
-
-### 2. Edit page content
-
-(1) Go to the folder where you want to store your project, and clone the new repository:
-```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-The directory structure is as follows:
-
-```.
-.
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
+```sh
+python3 -m http.server 8000
 ```
 
-(2) Modify the content of each section, which corresponds to `contents/*.md`.
+Open [http://localhost:8000](http://localhost:8000) in your browser. Use this local server so the page can fetch the content files.
 
-(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+## Update the homepage
 
-(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
+- Edit `contents/config.yml` to change the browser title, page title, name, subject, and footer text.
+- Edit `contents/home.md`, `contents/publications.md`, and `contents/awards.md` to update the biography, research interests, education, publications, and awards.
+- Update the email links directly in `index.html`.
+- Replace `static/assets/img/photo.png` to change the portrait, or update its image path in `index.html`.
+- Edit `static/css/main.css` for the homepage's visual styling. `static/css/styles.css` provides the underlying Bootstrap styles.
 
-(5) Push it: 
-```
-git commit -am 'init'
-git push
-```
+To add a section, create its Markdown file in `contents/`, add the matching section container and navigation link in `index.html`, and add its name to `section_names` in `static/js/scripts.js`.
 
+After making changes, check the local page at both desktop and mobile widths. Push the changes to this repository to update the GitHub Pages site.
 
-### 3. Enjoy
+## Mathematics
 
-Fire up a browser and go to `https://<username>.github.io`
+MathJax's core is loaded locally from `static/js/tex-svg.js`. Optional TeX extensions are loaded on demand from the version-matched MathJax 3.2.2 CDN. The configuration lives in `index.html`.
 
+Use `$...$` for inline mathematics and `$$...$$` for display mathematics. For LaTeX-style delimiters in Markdown, write `\\(...\\)` or `\\[...\\]`: double the delimiter backslashes so the Markdown parser preserves them for MathJax.
 
+## Credits and license
 
-## License
+This site is based on [Sen Li's personal academic website template](https://github.com/senli1073/senli1073.github.io). Its layout draws on [al-folio](https://alshedivat.github.io/al-folio/) as a design reference.
 
-Copyright Sen Li, 2023. Licensed under an MIT license. You can copy and mess with this template.
+The original template's MIT license and Sen Li's copyright notice are retained in [LICENSE](LICENSE).
