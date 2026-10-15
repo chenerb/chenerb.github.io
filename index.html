@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&amp;display=swap" rel="stylesheet" />
     <link href="static/css/styles.css" rel="stylesheet" />
-    <link href="static/css/main.css?v=20261015" rel="stylesheet" />
+    <link href="static/css/main.css?v=20261015-i18n1" rel="stylesheet" />
     <script>
         window.MathJax = {
             // The local bundle needs a version-matched source for optional TeX extensions.
@@ -35,27 +35,33 @@
     <script defer src="static/js/marked.min.js"></script>
     <script defer src="static/js/js-yaml.min.js"></script>
     <script defer id="MathJax-script" src="static/js/tex-svg.js"></script>
-    <script defer src="static/js/scripts.js?v=20261015"></script>
+    <script defer src="static/js/language.js?v=20261015-i18n1"></script>
+    <script defer src="static/js/scripts.js?v=20261015-i18n1"></script>
 </head>
 <body id="page-top">
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" data-i18n="skip" href="#main-content">Skip to content</a>
     <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainNav" aria-label="Main navigation">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainNav" aria-label="Main navigation" data-i18n-label="navigation">
             <div class="site-container nav-container">
                 <a id="page-top-title" class="navbar-brand" href="#home">Feiyang Chen</a>
+                <div class="language-switch" role="group" aria-label="Page language" data-i18n-label="language">
+                    <button type="button" data-language="zh" lang="zh-CN" aria-pressed="false">中文</button>
+                    <button type="button" data-language="en" lang="en" aria-pressed="true">EN</button>
+                </div>
+                <span id="language-status" class="visually-hidden" role="status" aria-live="polite"></span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" data-i18n-label="toggle">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                         <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                     </svg>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link active" href="#home">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#leadership">Leadership</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#home" data-i18n="about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#research" data-i18n="research">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience" data-i18n="experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#leadership" data-i18n="leadership">Leadership</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#awards" data-i18n="awards">Awards</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,17 +70,17 @@
     <main class="site-container" id="main-content" tabindex="-1">
         <div id="site-status" class="site-status" role="status" hidden></div>
         <noscript>
-            <p class="site-status">Please enable JavaScript to load the full profile. You can also reach me at
+            <p class="site-status">请启用 JavaScript 以查看完整主页及切换语言。Please enable JavaScript to view the full profile and switch languages. Email:
                 <a href="mailto:cfy.sjtu@sjtu.edu.cn">cfy.sjtu@sjtu.edu.cn</a>.</p>
         </noscript>
         <section class="profile-section" id="home" aria-labelledby="home-subtitle">
             <h1 id="home-subtitle">Feiyang Chen <span class="name-chinese" lang="zh-CN">陈飞扬</span></h1>
-            <p class="profile-affiliation"><span id="top-section-bg-text">Information Engineering</span>,
-                <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>
+            <p class="profile-affiliation"><span id="top-section-bg-text">Information Engineering</span><span data-i18n="affiliationSeparator">, </span>
+                <a href="https://www.sjtu.edu.cn/" data-i18n="university">Shanghai Jiao Tong University</a>
             </p>
             <div class="profile-layout">
                 <div class="profile-copy">
-                    <div class="contact-links" aria-label="Contact links">
+                    <div class="contact-links" aria-label="Contact links" data-i18n-label="contact">
                         <a href="mailto:cfy.sjtu@sjtu.edu.cn">
                             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
                                 <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
@@ -95,25 +101,25 @@
             </div>
         </section>
         <section class="content-section" id="research" aria-labelledby="research-subtitle">
-            <h2 id="research-subtitle">Research &amp; projects</h2>
+            <h2 id="research-subtitle" data-i18n="researchTitle">Research &amp; projects</h2>
             <div class="markdown-body experience-list" id="research-md" aria-busy="true">
                 <p class="loading-copy">Loading research…</p>
             </div>
         </section>
         <section class="content-section" id="experience" aria-labelledby="experience-subtitle">
-            <h2 id="experience-subtitle">Internship experience</h2>
+            <h2 id="experience-subtitle" data-i18n="experienceTitle">Internship experience</h2>
             <div class="markdown-body experience-list" id="experience-md" aria-busy="true">
                 <p class="loading-copy">Loading experience…</p>
             </div>
         </section>
         <section class="content-section" id="leadership" aria-labelledby="leadership-subtitle">
-            <h2 id="leadership-subtitle">Leadership &amp; service</h2>
+            <h2 id="leadership-subtitle" data-i18n="leadershipTitle">Leadership &amp; service</h2>
             <div class="markdown-body experience-list" id="leadership-md" aria-busy="true">
                 <p class="loading-copy">Loading leadership…</p>
             </div>
         </section>
         <section class="content-section" id="awards" aria-labelledby="awards-subtitle">
-            <h2 id="awards-subtitle">Honors &amp; awards</h2>
+            <h2 id="awards-subtitle" data-i18n="awardsTitle">Honors &amp; awards</h2>
             <div class="markdown-body awards-list" id="awards-md" aria-busy="true">
                 <p class="loading-copy">Loading awards…</p>
             </div>
@@ -124,7 +130,7 @@
             <p id="copyright-text">&copy; Feiyang Chen 2026</p>
             <div class="footer-links">
                 <a id="github-link" href="https://github.com/chenerb">GitHub</a>
-                <a id="license-link" href="https://github.com/chenerb/chenerb.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" data-i18n="license" href="https://github.com/chenerb/chenerb.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>

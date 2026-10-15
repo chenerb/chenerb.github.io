@@ -37,3 +37,15 @@ Use `$...$` for inline mathematics and `$$...$$` for display mathematics. For La
 This site is based on [Sen Li's personal academic website template](https://github.com/senli1073/senli1073.github.io). Its layout draws on [al-folio](https://alshedivat.github.io/al-folio/) as a design reference.
 
 The original template's MIT license and Sen Li's copyright notice are retained in [LICENSE](LICENSE).
+
+## Languages
+
+The header provides a **中文 / EN** language switch. The first visit follows the browser's language; subsequent visits use the saved selection. A language switch preserves the current reading position and updates the complete page without reloading it.
+
+- English content and profile configuration live in `contents/`.
+- Chinese content and profile configuration live in `contents/zh/`, using the same filenames and section order. Chinese descriptions use formal résumé language and retain the same dates, responsibilities, and quantitative results as the English version.
+- Navigation, accessibility labels, and feedback messages are maintained in the `copy` dictionary in `static/js/scripts.js`.
+- Keep corresponding headings and paragraphs aligned in both languages so reading position can be preserved accurately.
+- When changing JavaScript or CSS, update the asset version query in `index.html` to avoid stale GitHub Pages browser caches.
+
+Run the language behavior checks with `node --test tests/*.test.cjs`. No package installation is required.

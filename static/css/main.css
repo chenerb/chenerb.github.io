@@ -188,3 +188,39 @@ a:focus-visible, button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
 }
+
+/* The language control stays visible alongside the mobile menu button. */
+#mainNav .navbar-brand { margin-right: auto; }
+#mainNav .navbar-collapse { order: 1; }
+.language-switch {
+    order: 2;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-left: 24px;
+    padding: 3px;
+    gap: 2px;
+    border: 1px solid var(--site-line);
+    border-radius: 6px;
+}
+.language-switch button {
+    min-width: 42px;
+    min-height: 32px;
+    border: 0;
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: var(--site-muted);
+    background: transparent;
+    font: inherit;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.language-switch button:hover { color: var(--site-accent); background: var(--site-tint); }
+.language-switch button[aria-pressed="true"] { color: var(--site-accent); background: var(--site-tint); font-weight: 500; }
+.language-switch button.is-loading { text-decoration: underline; text-underline-offset: 4px; }
+html[lang="zh-CN"] .markdown-body { line-height: 1.85; }
+@media (max-width: 767px) {
+    .language-switch { order: 1; margin-left: 12px; }
+    .language-switch button { min-width: 38px; min-height: 36px; }
+    #mainNav .navbar-toggler { order: 2; margin-left: 8px; }
+    #mainNav .navbar-collapse { order: 3; }
+}
