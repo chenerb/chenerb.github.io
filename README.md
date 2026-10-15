@@ -17,7 +17,7 @@ Open [http://localhost:8000](http://localhost:8000) in your browser. Use this lo
 ## Update the homepage
 
 - Edit `contents/config.yml` to change the browser title, page title, name, subject, and footer text.
-- Edit `contents/home.md`, `contents/publications.md`, and `contents/awards.md` to update the biography, research interests, education, publications, and awards.
+- Edit `contents/home.md`, `contents/research.md`, `contents/experience.md`, `contents/leadership.md`, and `contents/awards.md` to update the biography, education, skills, research projects, internships, student leadership, and awards.
 - Update the email links directly in `index.html`.
 - Replace `static/assets/img/photo.png` to change the portrait, or update its image path in `index.html`.
 - Edit `static/css/main.css` for the homepage's visual styling. `static/css/styles.css` provides the underlying Bootstrap styles.

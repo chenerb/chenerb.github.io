@@ -1,14 +1,15 @@
-I am an undergraduate studying Information Engineering at Shanghai Jiao Tong University (SJTU). I am also affiliated with OMNILab, which is backed by the SJTU Artificial Intelligence Institute. My supervisor is [Jin, Y.](https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html).
+I am an undergraduate in Information Engineering at the School of Integrated Circuits, Shanghai Jiao Tong University (SJTU). My work spans multi-sensor perception and fusion, computer vision, embedded systems, and AI application and agent engineering.
 
-## Research interests
-
-My interests include deep learning, data analysis, computer vision, and hardware circuit design.
+Most recently, I worked on multi-sensor anti-UAV perception and fusion and completed an AI Application / Agent Engineering internship at SKYFEND Technology.
 
 ## Education
 
-B.E. in Information Engineering, Shanghai Jiao Tong University
-<small class="education-period">2023–2027 (expected)</small>
+**B.E. in Information Engineering**<br>
+School of Integrated Circuits, Shanghai Jiao Tong University
+<small class="education-period">September 2023 – June 2027 (expected)</small>
 
-## Beyond research
+GPA: 82.65/100 · IELTS: 6.5
 
-I enjoy broadcasting and hosting, theatre performance, and sports.
+## Skills
+
+Python, C, C++, Java, JavaScript, MATLAB, SPSS, LaTeX, MS Excel, and Canva.

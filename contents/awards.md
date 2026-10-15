@@ -1,10 +1,14 @@
+### 2026
+
+- **Huawei Student Developers** — March 2026.
+
 ### 2025
 
-- **Gold Award** — Shanghai International College Students' Innovation Competition.
-- **Successful Participants** — Mathematical Contest in Modeling (MCM).
+- **Shanghai Gold Award (top 10%)** — China International College Students’ Innovation Competition.
+- **S Prize** — Mathematical Contest in Modeling (MCM), May 2025.
 
-### 2023
+### 2024
 
-- **Second Prize (first in the Eastern division)** — Intel Cup Undergraduate Electronic Design Contest, Embedded System Design Invitational Contest (ESDC).
-- **“Annual figure”** — SJTU.
-- **“Merit Student”** — SJTU.
+- **A+ rating (top 10%)** — College Students’ Innovative Entrepreneurial Training Plan Program.
+- **East China First Prize; National Second Prize (top 8%)** — Intel Cup Undergraduate Electronic Design Contest, Embedded System Design Contest.
+- **Merit Student** — Shanghai Jiao Tong University, October 2024.

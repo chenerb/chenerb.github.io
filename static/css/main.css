@@ -135,7 +135,11 @@ a:focus-visible, button:focus-visible {
 .education-period { display: block; margin-top: 3px; color: var(--site-muted); font-size: 14px; }
 .content-section { margin-top: 42px; padding: 32px 0 0; border-top: 1px solid var(--site-line); }
 .content-section > h2 { margin: 0 0 18px; font-size: 27px; font-weight: 400; line-height: 1.35; letter-spacing: -0.025em; }
-#publications-md { color: var(--site-muted); }
+.experience-list h3 { margin: 30px 0 6px; font-size: 20px; font-weight: 500; line-height: 1.45; }
+.experience-list h3:first-child { margin-top: 0; }
+.entry-meta { display: block; margin-bottom: 14px; color: var(--site-muted); font-size: 14px; }
+.experience-list ul { padding-left: 22px; }
+.experience-list li + li { margin-top: 8px; }
 .awards-list { display: grid; grid-template-columns: 64px minmax(0, 1fr); column-gap: 24px; row-gap: 24px; }
 .awards-list h3 { margin: 2px 0 0; color: var(--site-muted); font-size: 15px; font-weight: 400; line-height: 1.7; }
 .awards-list ul { margin: 0; padding: 0; list-style: none; }
