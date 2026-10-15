@@ -8,7 +8,7 @@ Most recently, I worked on multi-sensor anti-UAV perception and fusion and compl
 School of Integrated Circuits, Shanghai Jiao Tong University
 <small class="education-period">September 2023 – June 2027 (expected)</small>
 
-GPA: 82.65/100 · IELTS: 6.5
+IELTS: 6.5
 
 ## Skills
 
