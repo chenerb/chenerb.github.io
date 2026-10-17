@@ -1,8 +1,8 @@
-I am an undergraduate in Information Engineering at the School of Integrated Circuits (School of Information Science and Electronic Engineering), Shanghai Jiao Tong University (SJTU). My work spans multi-sensor perception and fusion, computer vision, embedded systems, and AI application and agent engineering.
+Undergraduate in Information Engineering at the School of Integrated Circuits (School of Information Science and Electronic Engineering), Shanghai Jiao Tong University, pursuing a Bachelor of Engineering under the supervision of [Prof. Yaohui Jin](https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html).
 
-I am advised by [Prof. Yaohui Jin](https://www.cs.sjtu.edu.cn/jiaoshiml/jinyaohui.html).
+**Research interests:** Multi-sensor perception and fusion, computer vision, embedded systems, and AI applications and agent engineering.
 
-Most recently, I worked on multi-sensor anti-UAV perception and fusion and completed an AI Application / Agent Engineering internship at SKYFEND Technology.
+**Recent experience:** Research on multi-sensor anti-UAV perception and fusion, and an internship in AI applications and agent engineering at SKYFEND Technology.
 
 ## Education
 
