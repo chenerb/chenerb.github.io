@@ -63,3 +63,10 @@ test('obsolete failures do not show errors or clear the current loading state', 
     assert.equal(errors, 0); assert.equal(busy, true);
     gates.en.resolve('English'); await latest; assert.equal(busy, false);
 });
+test('explicit page-link language survives navigation even with blocked storage', () => {
+    const { preferredLanguage } = api();
+    const blocked = { getItem() { throw new Error('blocked'); } };
+    assert.equal(preferredLanguage(blocked, ['en-US'], 'zh'), 'zh');
+    assert.equal(preferredLanguage({ getItem: () => 'zh' }, ['zh-CN'], 'en'), 'en');
+    assert.equal(preferredLanguage({ getItem: () => 'zh' }, ['en'], 'invalid'), 'zh');
+});

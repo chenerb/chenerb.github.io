@@ -2,7 +2,8 @@
 globalThis.HomepageLanguage = (() => {
     const storageKey = 'homepage-language';
     const supported = language => language === 'en' || language === 'zh';
-    function preferredLanguage(storage, languages = []) {
+    function preferredLanguage(storage, languages = [], explicitLanguage) {
+        if (supported(explicitLanguage)) return explicitLanguage;
         try {
             const saved = storage?.getItem(storageKey);
             if (supported(saved)) return saved;

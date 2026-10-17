@@ -49,3 +49,12 @@ The header provides a **中文 / EN** language switch. The first visit follows t
 - When changing JavaScript or CSS, update the asset version query in `index.html` to avoid stale GitHub Pages browser caches.
 
 Run the language behavior checks with `node --test tests/*.test.cjs`. No package installation is required.
+
+## Academic / Life pages
+
+- [Academic homepage](https://chenerb.github.io/) keeps the résumé-oriented design.
+- [Life homepage](https://chenerb.github.io/life.html) presents personal interests, with visual inspiration from [Seán Halpin](https://www.seanhalpin.xyz/) and original SVG illustrations.
+- The **Academic / Life** links switch between independent pages and preserve the selected language via `?lang=zh` or `?lang=en`, including when browser storage is unavailable.
+- Edit bilingual personal copy in `life.html`: `data-zh` and `data-en` contain matching translations; visible text is the Chinese no-JavaScript fallback.
+- Life-page styles and interactions live in `static/css/life.css` and `static/js/life.js`. The academic page does not load these styles.
+- Goals use explicit dates (December 2026 half marathon; 2027 standard-distance triathlon). Update these manually when plans change or goals are completed.

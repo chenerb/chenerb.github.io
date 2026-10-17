@@ -5,7 +5,7 @@ const section_names = ['home', 'research', 'experience', 'leadership', 'awards']
 window.addEventListener('DOMContentLoaded', () => {
     const copy = {
         en: {
-            about: 'About', research: 'Research', experience: 'Experience', leadership: 'Leadership', awards: 'Awards',
+            academic: 'Academic', life: 'Life', pageStyle: 'Page style', about: 'About', research: 'Research', experience: 'Experience', leadership: 'Leadership', awards: 'Awards',
             researchTitle: 'Research & projects', experienceTitle: 'Internship experience', leadershipTitle: 'Leadership & service', awardsTitle: 'Honors & awards',
             university: 'Shanghai Jiao Tong University', affiliationSeparator: ', ', license: 'License', skip: 'Skip to content',
             navigation: 'Main navigation', toggle: 'Toggle navigation', contact: 'Contact links', language: 'Page language', portrait: 'Portrait of Feiyang Chen',
@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
             error: 'The selected language could not be loaded. Please try again.', unavailable: 'Content could not be loaded. Use Retry above.'
         },
         zh: {
-            about: '个人简介', research: '研究项目', experience: '实习经历', leadership: '学生工作', awards: '荣誉奖项',
+            academic: '学术', life: '生活', pageStyle: '页面风格', about: '个人简介', research: '研究项目', experience: '实习经历', leadership: '学生工作', awards: '荣誉奖项',
             researchTitle: '研究与竞赛项目', experienceTitle: '实习经历', leadershipTitle: '学生工作与社会服务', awardsTitle: '荣誉与奖项',
             university: '上海交通大学', affiliationSeparator: ' · ', license: '开源许可', skip: '跳至正文',
             navigation: '主导航', toggle: '展开或收起导航', contact: '联系方式', language: '页面语言', portrait: '陈飞扬个人照片',
@@ -61,6 +61,10 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     function translateChrome(language) {
         const text = copy[language];
+        document.querySelectorAll('[data-page-link]').forEach(link => { link.href = `${link.dataset.pageLink}?lang=${language}`; });
+        const url = new URL(location.href);
+        url.searchParams.set('lang', language);
+        history.replaceState(null, '', url);
         document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
         document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = text[el.dataset.i18n]; });
         document.querySelectorAll('[data-i18n-label]').forEach(el => { el.setAttribute('aria-label', text[el.dataset.i18nLabel]); });
@@ -160,5 +164,5 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
     marked.use({ mangle: false, headerIds: false });
-    switcher.change(HomepageLanguage.preferredLanguage(storage, navigator.languages || [navigator.language]));
+    switcher.change(HomepageLanguage.preferredLanguage(storage, navigator.languages || [navigator.language], new URLSearchParams(location.search).get('lang')));
 });
